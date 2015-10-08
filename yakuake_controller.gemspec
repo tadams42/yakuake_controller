@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'minitest', '~> 5.4'
   spec.add_development_dependency 'minitest-reporters', '~> 1.0'
   spec.add_development_dependency 'simplecov', '~> 0.9'
+  spec.add_development_dependency 'mocha', '~> 1.1'
 
   spec.add_development_dependency 'activesupport', '~> 4.1'
 
