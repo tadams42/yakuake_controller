@@ -10,3 +10,6 @@ require 'yakuake_controller'
 require "pry"
 
 require File.expand_path('test/minitest_extensions.rb')
+
+require 'mocha/mini_test'
+# require 'minitest/given'
