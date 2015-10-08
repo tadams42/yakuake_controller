@@ -2,8 +2,8 @@ require_relative "./yakuake_dbus.rb"
 
 module YakuakeController
 
-  class DbusClient
-    def initialize dbus: YakuakeDbus.new
+  class DBusClient
+    def initialize(dbus: YakuakeDbus.new)
       @dbus = dbus
     end
 
@@ -45,8 +45,6 @@ module YakuakeController
     def remove_terminal terminal_id:
       @dbus.sessions_interface.removeTerminal terminal_id
     end
-
-  private
 
     def sessions_ids
       @dbus.sessions_interface.sessionIdList.first.split(',').map{|i| i.to_i}
