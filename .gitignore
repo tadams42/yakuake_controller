@@ -2,3 +2,4 @@
 *.sublime-workspace
 Gemfile.lock
 pkg
+coverage
