@@ -28,4 +28,4 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
-[Yakuale]:https://yakuake.kde.org/
+[Yakuake]:https://yakuake.kde.org/
