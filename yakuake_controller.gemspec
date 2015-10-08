@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'yakuake_controller'
   spec.version       = YakuakeController::VERSION
 
-  spec.required_ruby_version = '~> 2.0'
+  spec.required_ruby_version = '~> 2.2'
 
   spec.authors       = ['Tomislav Adamic']
   spec.email         = ['tomislav.adamic@gmail.com']
