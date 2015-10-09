@@ -1,9 +1,18 @@
 require 'test_helper'
 
+class YakuakeDbusMock
+  attr_reader :sessions_interface, :tabs_interface
+
+  def initialize
+    @sessions_interface = ""
+    @tabs_interface = ""
+  end
+end
+
 describe YakuakeController::DBusClient do
 
   before do
-    @dbus = YakuakeController::YakuakeDBus.new
+    @dbus = YakuakeDbusMock.new
     @client = YakuakeController::DBusClient.new(dbus: @dbus)
 
     @tab_index = 1
