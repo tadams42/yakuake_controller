@@ -1,5 +1,8 @@
 # YakuakeController
 
+[![Gem Version](https://badge.fury.io/rb/yakuake_controller.svg)](https://badge.fury.io/rb/yakuake_controller)
+[![Build Status](https://travis-ci.org/tadamic/yakuake_controller.svg?branch=development)](https://travis-ci.org/tadamic/yakuake_controller)
+
 Ruby gem to interact with [Yakuake] through DBus.
 
 ## Installation
