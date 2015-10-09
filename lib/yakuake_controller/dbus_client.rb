@@ -3,7 +3,7 @@ require_relative "./yakuake_dbus.rb"
 module YakuakeController
 
   class DBusClient
-    def initialize(dbus: YakuakeDbus.new)
+    def initialize(dbus: YakuakeController::YakuakeDBus.new)
       @dbus = dbus
     end
 

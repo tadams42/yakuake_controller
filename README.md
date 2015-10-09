@@ -1,5 +1,8 @@
 # YakuakeController
 
+[![Gem Version](https://badge.fury.io/rb/yakuake_controller.svg)](https://badge.fury.io/rb/yakuake_controller)
+[![Build Status](https://travis-ci.org/tadamic/yakuake_controller.svg?branch=development)](https://travis-ci.org/tadamic/yakuake_controller)
+
 Ruby gem to interact with [Yakuake] through DBus.
 
 ## Installation
@@ -18,11 +21,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+~~~ruby
+require 'yakuake_controller'
+client = YakuakeController::DBusClient.new
+client.set_tab_title new_title: 'Foo', tab_index: 0
+~~~
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/yakuake_controller/fork )
+1. Fork it ( https://github.com/tadamic/yakuake_controller/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
